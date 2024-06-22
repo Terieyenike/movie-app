@@ -1,0 +1,13 @@
+{% extends 'movies/base.html' %}
+<html>
+  {% block content %}
+  <body>
+    <h1>Prison break is the best season movie that I have watched.</h1>
+    {% load static %}
+    <img
+      src="{% static 'movies/prisonbreak.jpg' %}"
+      alt="prisonbreak"
+      style="width: 500px; height: auto" />
+    {% endblock %}
+  </body>
+</html>
